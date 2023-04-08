@@ -166,6 +166,50 @@ a {
   margin-right: 10px;
 }
 
+.product{
+  width: 200px;
+}
+
+.product-row
+{
+  display:flex;
+  justify-content: space-between;
+}
+
+.product-category{
+  width: 250px;
+  padding: 10px;
+  border: 3px solid white;
+}
+
+.product-category-name{
+  text-align: center;
+}
+
+.product-search-bar{
+  width: 250px;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.product-search-checkbox{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.product-table-names{
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 3px solid white;
+}
+
+.out-of-stock
+{
+  color: red;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
